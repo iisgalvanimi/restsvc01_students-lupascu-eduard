@@ -9,7 +9,7 @@ const corsWhitelist = ['http://localhost']
 const corsOptions = { origin: corsWhitelist };
 const defaultRoutes = require('../routes/default');
 const logRoutes = require('../routes/logging');
-const apiRagazze = require('../routes/apiFilm');
+const apiFilm = require('../routes/apiFilm');
 const errorContoller = require('../controller/error');
 
 app.use(helmet());
